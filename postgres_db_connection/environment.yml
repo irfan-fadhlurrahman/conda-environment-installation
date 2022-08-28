@@ -1,0 +1,15 @@
+name: postgres_db_connection
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - ipywidgets
+  - plotly
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - inflection
+  - feature_engine
+  - pyarrow
