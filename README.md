@@ -20,14 +20,14 @@ nano enviroment.yml
   - pyarrow==8.0.0 
   ```
 ```
-name: spark_py38  
+name: personal_env_py38  
 channels:
   - conda-forge
 dependencies:
   - python=3.8
   - jupyterlab
   - ipywidgets
-  - pyspark
+  - findspark
   - pip
   - pip:
      - scikit-learn==1.1.1
@@ -41,6 +41,6 @@ conda env create --file environment.yml
 
 ## 4. Check the installed environment
 ```
-conda activate spark_py38
+conda activate personal_env_py38
 conda info --envs
 ```
