@@ -1,4 +1,4 @@
-name: nlp_py38
+name: workspace_py38
 channels:
   - conda-forge
   - huggingface
@@ -16,6 +16,10 @@ dependencies:
   - spacy-model-en_core_web_md=3.4.0
   - pip
   - pip:
+    - bs4
+    - lxml
+    - selenium
+    - requests
     - pandas==1.4.3
     - datasets==2.4.0
     - matplotlib==3.5.3
